@@ -2,7 +2,7 @@ Portfolio of Dinesh Amiti <br>
 
 Hello there , here is my portfolio webpage made using react.js , javascript and html&css deployed using AWS Amplify <br>
 
-Webpage Link: https://main.db0hrvqdqrj29.amplifyapp.com/
+Webpage Link: https://main.d2hpbc9ypk36iv.amplifyapp.com/
  <br>
  
 Usage :<br>
