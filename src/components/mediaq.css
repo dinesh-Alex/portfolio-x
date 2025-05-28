@@ -105,9 +105,13 @@ background-color: rgb(78, 78, 78);
   transition: box-shadow 0.5s;
   
 }
-.s-item:hover {
+/* .s-item:hover {
   box-shadow: 3px 3px 10px 10px rgb(135, 230, 163);
   transition: 0.5s;
+} */
+
+.s-item:hover {
+  box-shadow: 3px 3px 10px 10px rgb(135, 230, 163);
 }
 
 #heading {
