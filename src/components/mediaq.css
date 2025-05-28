@@ -73,46 +73,56 @@
   border-radius: 25px;
 }
 
-.s-container {
-/*   display: flex;
-flex-wrap: wrap; */
-
-   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  justify-items: center;
-  padding: 20px;
+/* .s-container {
+  display: flex;
+flex-wrap: wrap;
 }
 
 .s-item {
-/*   text-align: center;
+  text-align: center;
   flex: 0.33;
   background-color: rgb(78, 78, 78);
   border-radius: 25px;
   margin: 5px;
   color: #59e4a3;
   height: 310px;
-  padding: 10px; */
-
-background-color: rgb(78, 78, 78);
-  color: #59e4a3;
-  border-radius: 25px;
-  height: 310px;
-  width: 100%;
-  max-width: 400px;
   padding: 10px;
-  text-align: center;
-  transition: box-shadow 0.5s;
-  
 }
-/* .s-item:hover {
+.s-item:hover {
   box-shadow: 3px 3px 10px 10px rgb(135, 230, 163);
   transition: 0.5s;
 } */
 
+
+
+/* --- Services Section Fix --- */
+.s-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.s-item {
+  background-color: rgb(78, 78, 78);
+  border-radius: 25px;
+  padding: 20px;
+  color: #59e4a3;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 0.5s;
+  text-align: center;
+}
+
 .s-item:hover {
   box-shadow: 3px 3px 10px 10px rgb(135, 230, 163);
 }
+
 
 #heading {
   color: #59e4a3;
@@ -276,7 +286,7 @@ footer{
 
   .s-item {
     margin-left: auto;
-    font-size: 13px;
+/*     font-size: 13px; */
     margin-right: auto;
     margin-top: 10px;
     text-align: center;
@@ -286,6 +296,9 @@ footer{
     height: auto;
     width: auto;
     padding: 15px 30px;
+
+     font-size: 14px;
+  
   }
   .s-item:hover {
     box-shadow: 0px 0px 10px 10px rgba(135, 230, 164, 0.541);
