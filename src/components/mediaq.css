@@ -74,19 +74,36 @@
 }
 
 .s-container {
-  display: flex;
-flex-wrap: wrap;
+/*   display: flex;
+flex-wrap: wrap; */
+
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
 }
 
 .s-item {
-  text-align: center;
+/*   text-align: center;
   flex: 0.33;
   background-color: rgb(78, 78, 78);
   border-radius: 25px;
   margin: 5px;
   color: #59e4a3;
   height: 310px;
+  padding: 10px; */
+
+background-color: rgb(78, 78, 78);
+  color: #59e4a3;
+  border-radius: 25px;
+  height: 310px;
+  width: 100%;
+  max-width: 400px;
   padding: 10px;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  
 }
 .s-item:hover {
   box-shadow: 3px 3px 10px 10px rgb(135, 230, 163);
