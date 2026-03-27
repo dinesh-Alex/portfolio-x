@@ -5,11 +5,14 @@ function home() {
     <div id="homec">
       <div id="leftp">
         <p class="line-1 anim-typewriter">I'm Dinesh Amiti </p>
-        <p> Web developer</p>
+        <p> SAP EWM Functional Consultant</p>
         <p>
-          Proficient in an assortment of technologies like JavaScript , ReactJs.
-          Able to effectively self-manage during independent projects, as well
-          as collaborate in a team setting.
+        Motivated SAP EWM Functional Consultant with hands-on experience in decentralized and
+          S/4HANA embedded environments, contributing to implementation, rollout, and support projects. 
+          Possess a strong understanding of warehouse management processes and integration with ERP systems. 
+          Experienced in requirement gathering, process design, testing, and post-go-live support activities.
+          A quick learner with strong analytical and problem-solving skills, able to collaborate effectively within teams
+          and deliver quality results.
         </p>
       </div>
       <div  id="rightp">
