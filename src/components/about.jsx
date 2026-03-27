@@ -73,12 +73,12 @@ function About() {
       <div id="about-card">
         {exp ? (
           <div className="item exp">
-            <p>Software Developer intern @ Caset [July 2022- Jan 2023]</p>
-            <li>Responsible for developing landing page for the product.</li>
-            <li>Implemented responsive web designs using CSS media queries.</li>
-            <li>Responsible for developing dashboards for internal sites.</li>
+            <p>SAP EWM Functional Consultant @ Artihcus Global [Feb 2022- till date]</p>
+            <li>Executed 2 end-to-end SAP EWM implementations, 1 rollout, and supported 2 projects,ensuring successful go-live and post-go-live stability.</li>
+            <li>Gathered business requirements and configured SAP EWM processes including inbound, outbound, internal warehouse movements, and inventory management.</li>
+            <li>Collaborated with cross-functional teams to perform system configuration, testing (SIT/UAT), and issue resolution, ensuring seamless warehouse operations.</li>
 
-            <p>Data Analyst @ Jobiak [Sep 2019- Feb 2020] </p>
+            <p>Data Analyst @ Jobiak [Sep 2018- March 2019] </p>
             <li>Data analysis of types of career pages of companies.</li>
             <li>Product testing with different test cases.</li>
             <li>
@@ -88,6 +88,7 @@ function About() {
         ) : null}
         {ski ? (
           <div className="item skills">
+             <p>SAP EWM Embedded & decentralised</p>
             <p>Javascript</p>
             <p>HTML & CSS</p>
             <p>React.js</p>
@@ -98,23 +99,22 @@ function About() {
         ) : null}
         {pro ? (
           <div className="item projects">
-            <p>Tincat</p>
-            <p>Simon Game</p>
-            <p>Keep Notes</p>
-            <p>Current Portfolio</p>
-            <p>Student Registration Website</p>
+            <p>Bajaj Auto - Implementation project </p>
+            <p>Vishal Mega Mart - Support Project</p>
+            <p>Somany ceramics - Implementation and Rollout project</p>
+            <p>IFFCO Dubai - Support Project </p>
           </div>
         ) : null}
 
         {ed ? (
           <div className="item education">
-            <p>MBA-HR @ Dr.Lankapalli Bullayya College</p>
+            <p>MBA-HR @ Dr.Lankapalli Bullayya College [2019-2021]</p>
             <p>
               B.Tech-Computer Science & Engineering @ Vignan's institute of
-              information & Technology
+              information & Technology [2014-2018]
             </p>
-            <p>Intermediate(11th & 12th) @ Narayana College</p>
-            <p>High School (10th) @ Pollocks School</p>
+            <p>Intermediate(11th & 12th) @ Narayana College [2012-2014]</p>
+            <p>High School (10th) @ Pollocks School [2012]</p>
           </div>
         ) : null}
 
