@@ -8,15 +8,15 @@ function serv() {
        <h2 id="heading">Services</h2>
       <div className="s-container">
         <div className="s-item">
-          <p>UI/UX Designing</p>
+          <p>SAP EWM Implementation & Rollout</p>
             <img src={ui} alt="" className="servi"/>
         </div>
         <div className="s-item">
-          <p>Web Development</p>
+          <p>Support & Continuous Improvement</p>
           <img src={webdes} alt="" className="servi"/>
         </div>
         <div className="s-item">
-          <p>Mobile App Design</p>
+          <p>Warehouse Process Optimization</p>
           <img src={appdesign} alt="" className="servi"/>
         </div>
       </div>
