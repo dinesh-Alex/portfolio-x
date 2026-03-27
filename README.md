@@ -20,8 +20,8 @@ Acknowledgements :<br>
 i would like to thank my ex co-worker Mr.Srinivasu Reddy for encouraging me to have my porfolio webpage .
 
 Contact: <br>
-if your willing to hire me , you can surely reach me at amitidinesh1@gmail.com 
+if your willing to hire me , you can surely reach me at dinesh.dev.c@gmail.com 
 
 Conclusion :<br>
-I always like to learn and improve my skills at web development and very eager to be a part of healthy working environment .
+I am always keen to learn and improve my skills,  very eager to be a part of healthy working environment .
 "# portfolio-x" 
